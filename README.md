@@ -23,7 +23,11 @@ A simple notes application that allows users to create, read, update, and delete
    cd notes-app
    ```
 2. Install JSON Server globally (if not installed):
+   ```bash
     npm install -g json-server
+   ```
 3. Start the JSON Server:
+   ```bash
     json-server --watch db.json
+    ```
 4. Open index.html in your browser to use the app.
